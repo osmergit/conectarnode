@@ -1,8 +1,8 @@
-require('./funciones.js')
+
 const http = require('http');
 
 const hostname = '44.210.24.228';
-const port = 3000;
+const port = 80;
 const iniciarservidor =  function (req,res)
 {
     res.statusCode = 200;
