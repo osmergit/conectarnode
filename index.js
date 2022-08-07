@@ -1,9 +1,5 @@
 const http = require('http');
-
-//const hostname = 'ip-172-31-81-240.ec2.internal';
 const port = 3000;
-
-
 const server = http.createServer((req,res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
@@ -11,8 +7,6 @@ const server = http.createServer((req,res) => {
   res.end();
 
 });
-
 server.listen(port, () => {
-  console.log(`Server running at http://${port}/`);
+  console.log(`Server running at http:${port}`);
 });
-
