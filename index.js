@@ -1,7 +1,7 @@
 
 const http = require('http');
 
-const hostname = '44.210.24.228';
+const hostname = 'ip-172-31-81-240.ec2.internal';
 const port = 80;
 const iniciarservidor =  function (req,res)
 {
