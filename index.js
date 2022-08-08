@@ -1,6 +1,6 @@
 const http = require('http');
 const port = 3000;
-hostname = '172.31.80.252';
+hostname = 'ip-172-31-80-252.ec2.internal';
 const server = http.createServer((req,res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
