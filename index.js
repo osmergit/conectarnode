@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = '172.31.80.252';
+const hostname = 'localhost';
 const port = 3000;
 
 
