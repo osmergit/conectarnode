@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = 'ip-172-31-81-240.ec2.internal';
+const hostname = '172.31.80.252';
 const port = 3000;
 
 
